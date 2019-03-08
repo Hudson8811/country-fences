@@ -155,7 +155,7 @@
 .stat_block .row{margin-right: -20px;}
 .stat_block .block{padding-right: 20px;}
 .stat_block .block .image_block{height: 278px;}
-.stat_block .block .image_block a{height: 100%; display: block; box-sizing: border-box; padding-top: 99px; text-align: center; background: rgba(76,91,92,0.5); transition: .3s opacity; opacity: 0; font-weight: 500; color: #abd809; font-size: 13px; line-height: 17px;}
+.stat_block .block .image_block a{height: 100%; display: block; box-sizing: border-box; padding-top: 99px; text-align: center; background: rgba(76,91,92,0.5); transition: .3s opacity; opacity: 0; font-weight: 500; color: #abd809; font-size: 13px; line-height: 17px; cursor: pointer;}
 .stat_block .block .image_block a span{background:url(../img/see.png) no-repeat center center #abd809; width: 81px; height: 81px; border-radius: 50%; margin-bottom: 16px;}
 .stat_block .block .text_block{padding:18px 10px 0 28px; height: 148px; box-sizing: border-box; background: #f0f3f3;}
 .stat_block .block .text_block .date{color: #a2adae; font-weight: 500; font-size: 13px; line-height: 16px; margin-bottom: 17px;}
@@ -206,6 +206,9 @@
 .item__page .banner_block{padding-top: 76px; padding-bottom: 72px; background-position: top center;}
 .item__page .banner_block .pagetitle{color: #fff; margin-bottom: 60px; font-size: 40px;}
 .item__page .banner_block p{max-width: 610px;}
+.item__page .banner_block ul{display: -webkit-box;    display: -ms-flexbox;    display: flex; -ms-flex-wrap: wrap;    flex-wrap: wrap; max-width: 660px; padding-top: 18px;}
+.item__page .banner_block ul li{width: 50%; box-sizing: border-box; padding-left: 41px; position: relative; margin-top: 15px;}
+.item__page .banner_block ul li:before{content: '';    position: absolute;    width: 26px;    height: 19px;    background: url(../img/tick.svg) no-repeat;    background-size: contain;    left: 0;    top: 0;}
 
 .price_block{padding-top: 93px;}
 .price_block .pagetitle{margin-bottom: 60px;}
@@ -233,6 +236,13 @@
 .price_block .dd .item .table3 tr td:first-child{text-align: left; padding-left: 34px; box-sizing: border-box;}
 .price_block .dd .item i.mark{padding-left: 33px; position: relative; font-style: normal; color:#4c5b5c;}
 .price_block .dd .item i.mark:before{content: '*'; position: absolute; left:21px;}
+.price_block .dd .item i.mark ul{margin-top: 9px;}
+.price_block .dd .item p{margin-bottom: 45px; color: #000; max-width: 680px; margin-top: -2px;}
+.price_block .dd .item .ah3{font-size: 18px; line-height: 21px;}
+.price_block_type_page .dd .item table{margin-top: 27px;}
+.price_block_type_page .item_type_page{margin-top: 45px;}
+.price_block_type_page .item_type_page2{margin-top: 53px; border-bottom: 2px solid #ebeeee; padding-bottom: 95px;}
+.price_block_type_page .dd{margin-bottom: 36px;}
 
 .item__page .calculation__page .pagetitle{margin-bottom: 50px;}
 .item__page .calculation__page .mark{margin-bottom: 30px;}
@@ -311,8 +321,8 @@
 .palette_modal .palette_slider .slick-prev { width: 58px;    height: 58px;    box-sizing: border-box;    border: 1px solid #f0f3f3;    background: transparent url(../img/about_arrow.svg) no-repeat center center;    left: 0;    bottom: 0;    position: absolute;}
 .palette_modal .palette_slider .slick-dots li.slick-active{display: inline-block; vertical-align: top; position: relative; left:auto; top:auto;}
 .palette_modal .palette_slider .slick-dots{text-align: center; counter-reset: slides-num; padding-top: 26px;}
-.palette_modal .palette_slider .slick-dots:after {    content: counter(slides-num);    display: inline-block;    font-size: 14px;    font-weight: 400;    vertical-align: middle;    padding-left: 0px; color: #4c5b5c; position: relative; top: 4px;}
-.palette_modal .palette_slider .slick-dots li{counter-increment: slides-num; position: absolute; left: -9999em; text-outline: -9999em; font-size: 23px; line-height: 26px; color: #000;}
+.palette_modal .palette_slider .slick-dots:after {    content: counter(slides-num);    display: inline-block;    font-size: 14px;    font-weight: 400;    vertical-align: middle;    padding-left: 0; color: #4c5b5c; position: relative; top: 4px;}
+.palette_modal .palette_slider .slick-dots li{counter-increment: slides-num; position: absolute; left: -9999em; text-indent: -9999em; font-size: 23px; line-height: 26px; color: #000;}
 .palette_modal .palette_slider .slick-dots li button{background: transparent; font-size: 23px; line-height: 26px; color: #000;}
 .palette_modal .palette_slider .slick-dots li button:after{content: '/';}
 /**************** end item__page ******************/
@@ -471,7 +481,7 @@
 #gallery_modal .slick-dots li.slick-active {display: inline-block;vertical-align: top;position: relative;left: auto;top: auto;}
 #gallery_modal .slick-dots {text-align: center; counter-reset: slides-num;padding-top: 35px;}
 #gallery_modal .slick-dots li button:after {content: '/';}
-#gallery_modal .slick-dots li {counter-increment: slides-num;position: absolute;left: -9999em;text-outline: -9999em; font-size: 23px; line-height: 26px; color: #000;}
+#gallery_modal .slick-dots li {counter-increment: slides-num;position: absolute;left: -9999em;text-indent: -9999em; font-size: 23px; line-height: 26px; color: #000;}
 #gallery_modal .slick-dots:after {content: counter(slides-num);display: inline-block; font-size: 15px;font-weight: 400;vertical-align: middle;padding-left: 0px;color: #4c5b5c;position: relative;top: 4px;}
 #gallery_modal .b-modal_close{right: 20px; top: 20px;}
 
