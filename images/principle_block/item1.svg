@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="98.9px" height="91.5px" viewBox="0 0 98.9 91.5" style="enable-background:new 0 0 98.9 91.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{clip-path:url(#SVGID_4_);}
+	.st3{enable-background:new    ;}
+	.st4{clip-path:url(#SVGID_7_);}
+	.st5{clip-path:url(#SVGID_4_);mask:url(#SVGID_5_);}
+	
+		.st6{clip-path:url(#SVGID_9_);fill:none;stroke:#ABD809;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st7{clip-path:url(#SVGID_9_);fill:none;stroke:#ABD809;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st8{clip-path:url(#SVGID_4_);fill:none;stroke:#FFFFFF;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="98.9" height="91.5"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" y="0" width="98.9" height="91.5"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="85.8" height="77.8">
+				<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+				<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="85.8" height="77.8" id="SVGID_5_">
+			<g class="st1">
+				<g>
+					<defs>
+						<rect id="SVGID_6_" x="37.4" y="32.4" width="60.3" height="57.4"/>
+					</defs>
+					<clipPath id="SVGID_7_" class="st2">
+						<use xlink:href="#SVGID_6_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st3">
+						<path class="st4" d="M85.6,89.8c-0.2,0-0.3,0-0.4-0.1l-17.6-9.3l-17.6,9.3c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.4-0.1-0.6-0.2
+							c-0.3-0.2-0.4-0.6-0.4-0.9l3.4-19.6L37.7,55.3c-0.3-0.3-0.3-0.6-0.2-1s0.4-0.6,0.8-0.6l19.7-2.9L66.7,33
+							c0.2-0.3,0.5-0.5,0.8-0.5c0.4,0,0.7,0.2,0.8,0.5l8.8,17.8l19.7,2.9c0.4,0.1,0.6,0.3,0.8,0.6c0.1,0.3,0,0.7-0.2,1L83.1,69.1
+							l3.4,19.6c0.1,0.4-0.1,0.7-0.4,0.9C86,89.8,85.8,89.8,85.6,89.8"/>
+						<rect x="70" y="55.8" class="st4" width="22" height="27"/>
+					</g>
+				</g>
+			</g>
+		</mask>
+		<g class="st5">
+			<g>
+				<defs>
+					<rect id="SVGID_8_" y="0" width="85.8" height="77.8"/>
+				</defs>
+				<clipPath id="SVGID_9_">
+					<use xlink:href="#SVGID_8_"  style="overflow:visible;"/>
+				</clipPath>
+				<line class="st6" x1="60.3" y1="6.3" x2="60.3" y2="77.2"/>
+				<line class="st6" x1="35.3" y1="6.3" x2="35.3" y2="77.2"/>
+				<line class="st6" x1="10.3" y1="6.3" x2="10.3" y2="77.2"/>
+				<line class="st6" x1="64.3" y1="1.8" x2="64.3" y2="72.8"/>
+				<line class="st6" x1="39.3" y1="1.8" x2="39.3" y2="72.8"/>
+				<line class="st6" x1="14.3" y1="1.8" x2="14.3" y2="72.8"/>
+				<line class="st6" x1="70.3" y1="2.2" x2="70.3" y2="73.2"/>
+				<line class="st6" x1="45.3" y1="2.2" x2="45.3" y2="73.2"/>
+				<line class="st6" x1="20.3" y1="2.2" x2="20.3" y2="73.2"/>
+				<line class="st6" x1="74.3" y1="5.2" x2="74.3" y2="76.2"/>
+				<line class="st6" x1="49.3" y1="5.2" x2="49.3" y2="76.2"/>
+				<line class="st6" x1="24.3" y1="5.2" x2="24.3" y2="76.2"/>
+				<polygon class="st7" points="0.9,76.9 10.9,76.9 14.9,72.8 19.9,72.8 23.9,76.9 35.9,76.9 39.9,72.8 44.9,72.8 48.9,76.9 
+					60.9,76.9 64.9,72.8 69.9,72.8 73.9,76.9 84.9,76.9 84.9,4.9 73.9,4.9 69.9,0.9 64.9,0.9 60.9,4.9 48.9,4.9 44.9,0.9 39.9,0.9 
+					35.9,4.9 23.9,4.9 19.9,0.9 14.9,0.9 10.9,4.9 0.9,4.9 				"/>
+			</g>
+		</g>
+		<polygon class="st8" points="66.9,31.6 76.5,51.1 98,54.2 82.5,69.3 86.1,90.7 66.9,80.6 47.7,90.7 51.4,69.3 35.9,54.2 
+			57.3,51.1 		"/>
+	</g>
+</g>
+</svg>

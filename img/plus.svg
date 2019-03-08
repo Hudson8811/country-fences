@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18"
+   height="18"
+   viewBox="0 0 18 18"
+   version="1.1"
+   id="svg831"
+   sodipodi:docname="plus.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata835">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview833"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="-0.73025806"
+     inkscape:cy="-0.5404071"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg831" />
+  <defs
+     id="defs828">
+    <style
+       id="style826">
+      .cls-1 {
+        fill: #abd809;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path
+     id="Фигура_607_копия"
+     data-name="Фигура 607 копия"
+     class="cls-1"
+     d="M612,1373h2v18h-2v-18Zm-8,10v-2h18v2H604Z"
+     transform="translate(-604 -1373)" />
+  <rect
+     style="fill:#fffbff;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect837"
+     width="1.9528302"
+     height="1.9316038"
+     x="8.0235853"
+     y="8.0448112" />
+  <rect
+     style="fill:#fffbff;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect839"
+     width="0.0546875"
+     height="0.078125"
+     x="9.1914062"
+     y="8.7773438" />
+  <rect
+     style="fill:#abd809;fill-opacity:1;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect841"
+     width="2"
+     height="2.015625"
+     x="8"
+     y="7.9960938" />
+</svg>
