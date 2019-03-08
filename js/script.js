@@ -193,7 +193,10 @@ $('.example_slider').slick({
   ]
   });
 
-
+$('.width-gray-block .block .more_button a').click(function(){
+  $(this).hide();
+  $('.width-gray-block .block .flex_wrap .item').show();
+});
 
 
 /************* 1000 *****************/

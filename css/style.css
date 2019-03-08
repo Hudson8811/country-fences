@@ -161,6 +161,29 @@
 .stat_block .block .text_block .date{color: #a2adae; font-weight: 500; font-size: 13px; line-height: 16px; margin-bottom: 17px;}
 .stat_block .block .text_block .date:before{content: ''; display: inline-block;; vertical-align: middle; width: 16px; height: 16px; background: url(../img/date.png) no-repeat center center; background-size: contain; margin-left: -2px; margin-right: 4px; margin-top: -3px;}
 .stat_block .block .text_block .link{font-size: 17px; line-height: 23px; color: #000; font-weight: 500; max-height: 69px;}
+.stat_block_magnifier-hover .block .image_block a span{background-image: url(../img/magnifier.svg); background-size: 30px auto;}
+
+.width-gray-block{margin-bottom: 21px;}
+.width-gray-block .pagetitle{margin-bottom: 65px;}
+.width-gray-block .block{padding:23px;  margin-bottom: 23px;}
+.width-gray-block .block > div{padding: 28px 0 42px 60px; border:1px solid #d1d7d7; position: relative; overflow: hidden;}
+.width-gray-block .block .flex_wrap{margin-right: -20px;}
+.width-gray-block .block .ah3{font-size: 15px; line-height: 25px; max-width: 490px; margin-bottom: 39px;}
+.width-gray-block .block li{position: relative; padding-left: 30px; margin-bottom: 15px; padding-right: 40px;}
+.width-gray-block .block ul li:before {    content: '';    position: absolute;    width: 18px;    height: 193px;    background: url(../img/tick.svg) no-repeat;    background-size: contain;    left: 0;    top: 5px;}
+.width-gray-block .after-block .mark{padding-left: 14px; max-width: 720px; line-height: 20px; margin-bottom: 70px; line-height: 23px; font-style: normal; max-width: 490px;}
+.width-gray-block .after-block .mark:before{content: '*'; position: absolute; left: 0; top: 0;}
+.width-gray-block .after-block .left_block{font-size: 16px; margin-right: 11px;}
+.width-gray-block .after-block .left_block p{margin-bottom: 15px; }
+
+.get-banner{border-left: 3px solid #abd809; padding: 38px 102px 37px; }
+.get-banner .left_block{padding-right: 30px; max-width: 470px;}
+.get-banner .left_block .pagetitle{color: #fff; margin-bottom: 6px;}
+.get-banner .right_block{width: 291px; -ms-flex-item-align: center;    align-self: center;}
+.get-banner .right_block .call_block {    padding-top: 19px;    margin-left: 50px;}
+.get-banner .right_block .call_block .phone{font-size: 20px;    line-height: 23px;}
+.get-banner .right_block .call_block .phone:before {    content: '';    position: absolute;    width: 17px;    height: 26px;    background: url(../img/tel.png) no-repeat center center;    background-size: contain;    left: -31px;    top: 4px;}
+.get-banner .right_block .call_block .call_me {    color: #abd809;    font-size: 13px;    border-bottom: 1px solid #abd809;    line-height: 16px;    position: relative;    top: 0;}
 
 .calculation__page{padding-bottom: 129px;}
 .calculation__page .pagetitle{margin-bottom: 69px;}
@@ -202,6 +225,7 @@
 .calculation__page .button_block .green_button{margin-top: 5px; width: 197px;}
 
 /**************** start item__page ******************/
+.item__page.type_page{padding-bottom: 100px;}
 .item__page{margin-top: -64px;}
 .item__page .banner_block{padding-top: 76px; padding-bottom: 72px; background-position: top center;}
 .item__page .banner_block .pagetitle{color: #fff; margin-bottom: 60px; font-size: 40px;}
@@ -423,6 +447,7 @@
 .delivery_page .slider_block input.box {text-align: center; font-size: 15px; line-height: 15px;margin-top: 4px; padding: 15px 18px;border:1px solid #D1D7D7; width: 91px;margin-left: 20px;margin-right: 10px;}
 .delivery_page .slider_block > .rL.hid {margin-top: -20px;padding-left: 89px;}
 .delivery_page .slider_block > .rL.hid:before{content: "";width: 46px; height: 5px; position: absolute;left: 25px;top: 27px;background-image: url(../img/arow_icon.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.delivery_page .slider_block > .rL.hid span.inb {font-size: 15px; color: #000;}
 .delivery_page .left_block {padding-left: 29px;margin-top: 22px;}
 .delivery_page .left_block p {font-size: 15px; line-height: 18px;font-weight: 600;}
 .delivery_page .left_block span.db {color: #000; font-size: 15px; line-height: 20px;}
@@ -444,17 +469,17 @@
 .delivery_page .manager_block .fleft.w50.bot {margin-top: 12px;}
 .delivery_page .manager_block .fleft.w50.bot p {font-weight: 600;font-size: 15px;line-height: 18px;color: #000;margin-bottom: 13px;}
 .delivery_page .manager_block .fleft.w50.bot p a {padding-left: 10px;box-sizing: border-box; margin-left: 3px;line-height: 21px;display: inline-block;vertical-align: middle; background-color: #ABD809;width: 142px;}
-.delivery_page .bottom_block {margin-bottom: 140px;margin-top: 95px;}
-.delivery_page .bottom_block .ah3 {margin-bottom: 73px;}
-.delivery_page .bottom_block .block .row .item a {font-size: 15px;line-height: 30px;color: #000;padding-left: 22px;}
-.delivery_page .bottom_block .block .row .item a:before {content: "";position: absolute;display: block;left: 0px; top: 12px;height: 5px;width: 5px; border-radius: 2.5px; background-color: #A2ADAE;}
-.delivery_page .bottom_block .block .row {padding:69px 0px;}
 .delivery_page .manager_block {margin-top: 105px;}
 .delivery_page .manager_block .fright.w50 p:nth-child(4){margin-bottom: 30px;}
-.delivery_page .bottom_block .block .row .item:nth-child(2) {padding-left: 25px;}
-.delivery_page .bottom_block .block .row .item:nth-child(3) {padding-left: 41px;}
-.delivery_page .bottom_block .block .row .item:nth-child(4) {padding-left: 76px;}
-.delivery_page .slider_block > .rL.hid span.inb {font-size: 15px; color: #000;}
+
+.bottom_city {margin-bottom: 140px;margin-top: 95px;}
+.bottom_city .ah3 {margin-bottom: 73px;font-size: 35px; line-height: 38px;font-weight: 600;color: #000;font-family: 'Montserrat Alternates', sans-serif; padding-left: 5px; padding-right: 5px;}
+.bottom_city .block .row .item a {font-size: 15px;line-height: 30px;color: #000;padding-left: 22px;}
+.bottom_city .block .row .item a:before {content: "";position: absolute;display: block;left: 0px; top: 12px;height: 5px;width: 5px; border-radius: 2.5px; background-color: #A2ADAE;}
+.bottom_city .block .row {padding:69px 0px;}
+.bottom_city .block .row .item:nth-child(2) {padding-left: 25px;}
+.bottom_city .block .row .item:nth-child(3) {padding-left: 41px;}
+.bottom_city .block .row .item:nth-child(4) {padding-left: 76px;}
 
 .gallery_page .pag_block {margin-top: 72px;}
 .gallery_page .pag_block a{padding: 0px 40px;height: 53px;line-height: 53px;font-size: 15px; font-weight: 500;color: #000;background-color: #F0F3F3;margin-right: 20px;margin-bottom: 20px;}
