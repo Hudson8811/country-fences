@@ -433,7 +433,7 @@
 .delivery_page .slider_block {padding: 57px 75px; background-color: #F0F3F3;}
 .delivery_page .slider_block #slider-range-min {float: left; max-width: 494px;width: 100%;background-color: #fff;}
 .delivery_page .slider_block span.fleft {font-size: 15px; line-height: 20px;color: #000;width: 163px;margin-right: 27px;}
-.delivery_page .slider_block .polzunok-container-3 {position: relative;max-width: 494px;width: 100%;float: left;height: 6px;margin-top: -12px;}
+.delivery_page .slider_block .polzunok-container-3 {position: relative;max-width: 494px;width: 100%;float: left;margin-top: -12px;}
 .delivery_page .slider_block .polzunok-container-3 #slider{display: inline-block; vertical-align: top; width: 100%; height: 6px; background: #fff; margin-top: 21px;}
 .delivery_page .slider_block .polzunok-container-3 #slider:before{content: '0'; position: absolute; left: -4px; top: 100%; font-size: 12px; color: #a2adae; line-height: 28px;}
 .delivery_page .slider_block .polzunok-container-3 #slider:after{content: '100'; position: absolute; right: -10px; top: 100%; font-size: 12px; color: #a2adae; line-height: 28px;}
