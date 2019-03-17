@@ -489,8 +489,8 @@
 .contacts_page .bottom_row .row{margin-right: -20px;}
 .contacts_page .bottom_row .item:nth-child(3) .map{margin-top: 75px;}
 
-.discounts_page .main_block .banner1 {padding-right: 10px;}
-.discounts_page .main_block .banner2{padding-left: 10px;}
+.discounts_page .main_block .banner1 {padding-right: 10px; margin-bottom: 20px;}
+.discounts_page .main_block .banner2{padding-left: 10px; margin-bottom: 20px;}
 .discounts_page .main_block .yellow_block {background-color: #F9CB40;padding-top: 64px;padding-bottom: 63px;padding-left: 57px;box-sizing: border-box;}
 .discounts_page .main_block .yellow_block p {color: #000; font-size: 30px;line-height: 30px; position: relative; z-index: 2;}
 .discounts_page .main_block .yellow_block p b {display: block;}
