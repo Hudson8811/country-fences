@@ -198,6 +198,10 @@ $('.width-gray-block .block .more_button a').click(function(){
   $('.width-gray-block .block .flex_wrap .item').show();
 });
 
+$('.js-label b').click(function(){
+  $(this).parent().toggleClass('active');
+});
+
 
 /************* 1000 *****************/
 if (window.innerWidth < 1000) {

@@ -7,7 +7,7 @@
 #header .call_block{padding-top: 12px; margin-left: 50px;}
 #header .call_block .phone{font-size: 20px; line-height: 23px;}
 #header .call_block .phone:before{content: ''; position: absolute; width: 17px; height: 26px; background: url(../img/tel.png) no-repeat center center; background-size: contain; left: -31px; top: 4px;}
-#header .call_block .call_me{color: #abd809; font-size: 13px; border-bottom: 1px solid #abd809; line-height: 16px; position: relative; top: -2px;}
+#header .call_block .call_me{color: #abd809; font-size: 13px; border-bottom: 1px solid #abd809; line-height: 16px; position: relative; top: -2px; cursor: pointer;}
 #header .address_block{padding-top: 13px;}
 #header .address_block .block{padding-left: 32px; position: relative; background: url(../img/mark.svg) no-repeat left 2px; background-size:20px auto; min-height: 37px; font-size: 13px; line-height: 14px; color: #a2adae;}
 #header .address_block .block b{margin-bottom: 10px;}
@@ -592,25 +592,26 @@
 #gallery_modal .slick-dots:after {content: counter(slides-num);display: inline-block; font-size: 15px;font-weight: 400;vertical-align: middle;padding-left: 0px;color: #4c5b5c;position: relative;top: 4px;}
 #gallery_modal .b-modal_close{right: 20px; top: 20px;}
 
-#call_me .block input.fon {margin-bottom: 50px;}
+#call_me .block input.fon {margin-bottom: 35px;}
 #call_me .block {width: 473px;box-sizing: border-box;padding: 57px 58px 60px 58px;background-color: #fff;}
 #call_me .block .ah1 {margin-bottom: 53px; font-family: 'Montserrat Alternates', sans-serif;font-size: 35px;color: #000; font-weight: 600;}
 #call_me .block label {margin-bottom: 58px; padding-left: 38px; font-size: 14px; line-height: 20px;color: #000;}
 #call_me .block label a {cursor: pointer; color: #2f52e0;text-decoration: none;display: block;}
-#call_me .block label input[type="checkbox"]:checked + b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
+#call_me .block label.active b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
 #call_me .block label input[type="checkbox"] {display: none;}
 #call_me .block label b {cursor: pointer;height: 18px;width: 18px;display: block;position: absolute;left: 0;top: 0px; background-color: #ABD809;}
-#call_me .block > input { color: #000; margin-bottom: 20px; padding: 22px 24px;padding-right: 64px; background-color: #F0F3F3;font-size: 15px;line-height: 15px;}
+#call_me .block input { color: #000; margin-bottom: 20px; padding: 20px 24px;padding-right: 64px; background-color: #F0F3F3;font-size: 15px;line-height: 15px;}
 #call_me .block input.name{background-image: url(../img/name_icon.svg);background-repeat: no-repeat;background-position: 304px center; background-size: 25px 22px;}
 #call_me .block input.fon{background-image: url(../img/fon_icon.svg);background-repeat: no-repeat;background-position: 305px center; background-size: 25px 24px;}
-#call_me .block .green_button {width: 140px;margin: 0 auto;}
+#call_me .block br{display: none;}
+#call_me .block input[type="submit"] {padding: 0; background-color: #abd809; color: #000;  font-weight: 500; text-align: center; display: block; position: relative; cursor: pointer; line-height: 43px; transition: .3s background-color; width: 140px;margin: 0 auto; cursor: pointer; margin-bottom: 0; background-image:url(../img/arrow.png); background-position: right top; background-repeat: no-repeat; background-size: 11px 11px;}
 
-
-#call_me2 .block {width: 740px;box-sizing: border-box;padding: 60px;padding-bottom: 74px; background-color: #fff;}
+#call_me2 .block br{display: none;}
+#call_me2 .block {width: 740px;box-sizing: border-box;padding: 60px;padding-bottom: 34px; background-color: #fff;}
 #call_me2 .block .ah1 {margin-bottom: 34px; font-family: 'Montserrat Alternates', sans-serif;font-size: 35px;color: #000; font-weight: 600;}
 #call_me2 .block label { padding-left: 38px; font-size: 14px; line-height: 20px;color: #000;}
 #call_me2 .block label a {cursor: pointer; color: #2f52e0;text-decoration: none;display: block;}
-#call_me2 .block label input[type="checkbox"]:checked + b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
+#call_me2 .block label.active b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
 #call_me2 .block label input[type="checkbox"] {display: none;}
 #call_me2 .block label b {cursor: pointer;height: 18px;width: 18px;display: block;position: absolute;left: 0;top: 0px; background-color: #ABD809;}
 #call_me2 .block div.box.left {padding-right: 10px;}
@@ -618,27 +619,29 @@
 #call_me2 .block div.box input { color: #000; margin-bottom: 20px; padding: 22px 24px;padding-right: 64px; background-color: #F0F3F3;font-size: 15px;line-height: 15px;}
 #call_me2 .block div.box input.name{background-image: url(../img/name_icon.svg);background-repeat: no-repeat;background-position: 250px center; background-size: 25px 22px;}
 #call_me2 .block div.box input.fon{background-image: url(../img/fon_icon.svg);background-repeat: no-repeat;background-position: 251px center; background-size: 25px 24px;}
-#call_me2 .block .green_button {width: 140px;margin: 0 auto;}
+#call_me2 .block input[type="submit"] {padding: 0; background-color: #abd809; color: #000;  font-weight: 500; text-align: center; display: block; position: relative; cursor: pointer; line-height: 43px; transition: .3s background-color; width: 140px;margin: 0 auto; cursor: pointer; margin-bottom: 0; background-image:url(../img/arrow.png); background-position: right top; background-repeat: no-repeat; background-size: 11px 11px; width: 140px;margin: 0 auto; float: right;}
 #call_me2 .block textarea {padding: 22px; font-size: 15px; color: #000;background-color:#F0F3F3;box-sizing: border-box;height: 159px;margin-bottom: 50px; }
 #call_me2 .block p{margin-bottom: 42px; font-size: 15px; line-height: 23px;color: #000;}
 
 #call_me3 .block {width: 740px;box-sizing: border-box;padding: 60px;padding-bottom: 74px; background-color: #fff;}
+#call_me3 .block br{display: none;}
 #call_me3 .block .ah1 {margin-bottom: 34px; font-family: 'Montserrat Alternates', sans-serif;font-size: 35px;color: #000; font-weight: 600;}
 #call_me3 .block label { padding-left: 38px; font-size: 14px; line-height: 20px;color: #000;}
 #call_me3 .block label a {cursor: pointer; color: #2f52e0;text-decoration: none;display: block;}
-#call_me3 .block label input[type="checkbox"]:checked + b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
+#call_me3 .block label.active b { background-image: url(../img/w_check_icon.png);background-position: center;background-repeat: no-repeat;background-size:12px 9px;}
 #call_me3 .block label input[type="checkbox"] {display: none;}
 #call_me3 .block label b {cursor: pointer;height: 18px;width: 18px;display: block;position: absolute;left: 0;top: 0px; background-color: #ABD809;}
 #call_me3 .block div.box.left {padding-right: 10px;}
 #call_me3 .block div.box.right {padding-left: 10px;}
+#call_me3 .block .your-message{display: block;}
 #call_me3 .block div.box input.red {border:1px solid #FC021C;}
 #call_me3 .block div.box input { color: #000; margin-bottom: 20px; padding: 22px 24px;padding-right: 64px; background-color: #F0F3F3;font-size: 15px;line-height: 15px;}
 #call_me3 .block div.box input.name{background-image: url(../img/name_icon.svg);background-repeat: no-repeat;background-position: 250px center; background-size: 25px 22px;}
 #call_me3 .block div.box input.mail{background-image: url(../img/mail_icon.png);background-repeat: no-repeat;background-position: 253px center; background-size: 24px 17px;}
 #call_me3 .block div.box input.adres{background-image: url(../img/adres_icon.png);background-repeat: no-repeat;background-position: 256px center; background-size: 18px 26px;}
 #call_me3 .block div.box input.fon{background-image: url(../img/fon_icon.svg);background-repeat: no-repeat;background-position: 251px center; background-size: 25px 24px;}
-#call_me3 .block .green_button {width: 140px;margin: 0 auto;}
+#call_me3 .block input[type="submit"]{padding: 0; background-color: #abd809; color: #000;  font-weight: 500; text-align: center; display: block; position: relative; cursor: pointer; line-height: 43px; transition: .3s background-color; width: 140px;margin: 0 auto; cursor: pointer; margin-bottom: 0; background-image:url(../img/arrow.png); background-position: right top; background-repeat: no-repeat; background-size: 11px 11px; width: 140px;margin: 0 auto; float: right;}
 #call_me3 .block textarea {padding: 22px; font-size: 15px; color: #000;background-color:#F0F3F3;box-sizing: border-box;height: 159px;margin-bottom: 50px; }
-#call_me3 .block p{margin-bottom: 42px; font-size: 15px; line-height: 23px;color: #000;padding-right: 160px;}
+#call_me3 .block .ah1 + p{margin-bottom: 42px; font-size: 15px; line-height: 23px;color: #000;padding-right: 160px;}
 
 /* font-family: 'Montserrat Alternates', sans-serif; */

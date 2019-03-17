@@ -540,10 +540,11 @@
 	#call_me .block label{margin-bottom: 50px;}
 	#call_me .block .green_button{font-size: 14px;}
 	#call_me2 .block .ah1{font-size: 22px;margin-bottom: 27px;}
-	#call_me2 .block{width: 290px;padding: 42px 28px;padding-bottom: 65px;}
+	#call_me2 .block{width: 290px;padding: 42px 28px;padding-bottom: 10px;}
 	#call_me2 .block div.box input{padding: 23px 20px;}
 	#call_me2 .block div.box input.name{background-position: 193px center;}
 	#call_me2 .block div.box input.fon{background-position: 194px center;}
+	#call_me2 .abs_label{position: absolute; margin-top: -145px;}
 	#call_me2 .block label{margin-bottom: 50px;}
 	#call_me2 .block .green_button{font-size: 14px;}
 	#call_me2 .block div.box.left{padding-right: 0px; float: none;width: 100%;}
@@ -551,20 +552,23 @@
 	#call_me2 .block textarea{height: 171px;padding: 23px 20px;}
 	#call_me2 .block .green_button{float: none;margin-top: 100px;margin-bottom: -110px;z-index: 100;}
 	#call_me2 .block p {padding-right: 0px;}
+	#call_me2 .block input[type="submit"]{float: none; margin-top: 110px;}
 	#call_me3 .block .ah1{font-size: 22px;margin-bottom: 27px;}
-	#call_me3 .block{width: 290px;padding: 42px 28px;padding-bottom: 65px;}
+	#call_me3 .block{width: 290px;padding: 42px 28px;padding-bottom: 10px;}
 	#call_me3 .block div.box input{padding: 23px 20px;}
 	#call_me3 .block div.box input.name{background-position: 193px center;}
 	#call_me3 .block div.box input.fon{background-position: 194px center;}
 	#call_me3 .block label{margin-bottom: 50px;}
+	#call_me3 .block input[type="submit"]{float: none; margin-top: 110px;}
 	#call_me3 .block .green_button{font-size: 14px;}
 	#call_me3 .block div.box.left{padding-right: 0px; float: none;width: 100%;}
 	#call_me3 .block div.box.right{padding-left: 0px; float: none;width: 100%;}
 	#call_me3 .block textarea{height: 171px;padding: 23px 20px;}
 	#call_me3 .block .green_button{float: none;margin-top: 100px;margin-bottom: -110px;z-index: 100;}
-	#call_me3 .block p {padding-right: 0px;}
+	#call_me3 .block .ah1 + p{padding-right: 0px;}
 	#call_me3 .block div.box input.mail{background-position: 194px center;}
 	#call_me3 .block div.box input.adres{background-position: 197px center;}
+	#call_me3 .abs_label{position: absolute; margin-top: -145px;}
 }
 
 @media screen and (max-width: 730px){
