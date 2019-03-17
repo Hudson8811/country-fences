@@ -19,7 +19,6 @@
 	.discounts_page .bot_block.fleft{margin-top: 19px;margin-bottom: 130px;}
 	.discounts_page .bot_block p{font-size: 14px;margin-bottom: 10px;}
 	.discounts_page .bot_block p a{width: 138px;}
-	.discounts_page .main_block > div {height: 462px; overflow: hidden;}
 	.delivery_page .pagetitle {font-size: 32px; margin-bottom: 50px;}
 	.delivery_page .ah2 {font-size: 17px; margin-bottom: 34px;}
 	.delivery_page .slider_block {padding: 54px 29px;padding-bottom: 35px;}
@@ -706,6 +705,7 @@
 	.delivery_page .slider_block input.box{margin-left: 0;}
 	.delivery_page .manager_block .fright.w50{margin-top: 0;}
 	.delivery_page .pagetitle{font-size: 24px; margin-bottom: 41px;}
+	.discounts_page .main_block .inner{display: block;}
 	.discounts_page .main_block .banner2 .yellow_block:before{width: 200px;}
 	.discounts_page .main_block .grey_block p b{display: inline;}
 	.discounts_page .bot_block.fleft{margin-top: 33px; margin-bottom: 80px;}
